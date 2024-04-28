@@ -1,0 +1,344 @@
+/* Resetting default browser styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+/* Box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, ol , ul{
+    list-style: none;
+}
+
+/* Global Typography */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --blue-colour:#1C1E53;
+    --gray-colour:#F4F6FC;
+    --text-colur:#282938;
+    --white-colour:#ffffff;
+    --yellow-colour:#FCD980;
+
+    --coco-colur: #ED9455;
+    --light-coco-colur: #FFBB70;
+    --more-light-coco-colur: #FFEC9E;
+
+}
+video{
+    width: 100%;
+}
+
+/* ============================= Custom CSS ==================== */
+
+
+/* ============================= Navbar CSS ==================== */
+
+.customNav{
+    padding: 5px 0;
+    background-color: var(--gray-colour);
+}
+.navbar__logo{
+    width: 300px;
+    height: auto;
+    text-align: left;
+}
+.customItem{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: var(--blue-colour);
+    transition: ease-in-out .1s;
+}
+.custombtn{
+    padding: 10px 20px;
+    margin: 0 4px;
+    background-color: var(--blue-colour);
+    border: 2px solid var(--gray-colour);
+    outline: none;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
+    color: white;
+}
+.custombtn:hover{
+    background-color: var(--more-light-coco-colur);
+    color: black;
+    border: 2px solid black;
+}
+/* ============================= Navbar CSS ==================== */
+
+/* ================================== How we work ================== */
+#wokpart{
+    padding: 100px 0px;
+    background-color: var(--gray-colour);
+}
+.wokpart__left__h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.wokpart__left__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur)
+}
+.wokpart__left__p__arrow{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+}
+.workpart__right__h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--text-colur);
+}
+.workpart__right__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+    opacity: 0.6;
+}
+/* =================================== How we work ================== */
+
+/* ============================== Service Part ================== */
+
+#servicepart{
+    background-color: var(--white-colour);
+    padding: 100px 0px;
+}
+.servicepart__heading__h3{
+    font-weight: 600;
+    font-size: 48px;
+}
+.serviceitem{
+    background-color: var(--gray-colour);
+    padding: 35px 30px;
+    border-radius: 10px;
+}
+.serviceitem__icon{
+    font-size: 28px;
+    color: #2405F2;
+}
+.serviceitem__h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.serviceitem__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+    line-height: 28px;
+}
+/* ================================= Service Part ================= */
+
+/* ================================= Testimonial ================== */
+#testimonialpart{
+    padding: 120px 0;
+    background-color: #F9FBFD;
+}
+.testimonialleft__h3{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.testimonialleft__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+}
+.testimonialright__h3{
+    font-weight: 500;
+    font-size: 32px;
+}
+.testimonialright__user{
+    margin-top: 60px;
+    display:flex ;
+    align-items: center;
+}
+.testimonial__img{
+    width: 70px;
+
+    border-radius: 50%;
+}
+.userdetails__h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.userdetails__p{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-colur);
+    margin-top: 7px;
+}
+/* ================================= Testimonial =============== */
+
+/* ================================= FAQ Part ================== */
+
+#faq{
+    padding: 90px 0;
+}
+.faqleft__a {
+    margin-top: 20px;
+}
+/* ================================= FAQ Part ================== */
+
+
+/* Team Seaction */
+.team_section {
+    background-color: #f7f9ff;
+}
+.team_sub_title {
+    font-size: 20px;
+    font-weight: 300;
+}
+.member_image {
+    width: 100px;
+    margin-top: -46px;
+    position: relative;
+    right: -15px;
+}
+.member_name {
+    font-size: 23px;
+}
+.member_job {
+    font-size: 19px;
+    font-weight: 300;
+}
+.member_text {
+    font-weight: 200;
+}
+.user__btn{
+    transition: ease-in-out .3s;
+}
+.user__btn:hover{
+    background-color: var(--blue-colour);
+    color: var(--white-colour);
+}
+
+
+
+/* ================================= inquiry Part ============== */
+
+#inquiry{
+    padding: 90px 0;
+}
+
+.inquiry__right{
+    background: #FFCCD1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inquiry__right__content{
+    width: 400px;
+    color: black;
+}
+.inquiry__right__content__h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
+.inquiry__right__content__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--gray-colour);
+    color: black;
+}
+.inquiry__input{
+    outline: none;
+    border: none;
+}
+.inquiry__btn{
+    background-color: var(--blue-colour);
+    color: var(--white-colour);
+}
+.inquiry__btn:hover{
+    background-color: var(--light-coco-colur);
+}
+/* ================================= inquiry Part ================== */
+
+/* ================================= footer Part ===================== */
+
+
+#footerpart{
+    background-color: var(--blue-colour);
+    padding: 70px 50px 0 50px;
+}
+.footerTopLeft__p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerTopBottom h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerTopBottom a{
+    color: #1C1E53;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.footer__logo{
+    height: 100px;
+}
+.footerLeftBottom{
+    background-color: var(--yellow-colour);
+    margin-top: 70px;
+    padding: 15px 10px;
+}
+.footerRight__h3{
+    font-size: 48px;
+    font-weight: 600;
+}
+.footerRight__p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a{
+    padding: 10px;
+    color: white;
+}
+#footerbottom{
+    padding: 15px 0px;
+}
+.footernav__left{
+    font-size:16px ;
+    font-weight: 500;
+}
+.footernav__item{
+    font-size:16px ;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-left: 40px;
+}
+
+/* ================================= footer Part ===================== */
